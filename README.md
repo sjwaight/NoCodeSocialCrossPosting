@@ -6,6 +6,8 @@ You send a simple JSON request to the HTTP endpoint created by the Logic App onc
 
 An Azure Key Vault holds a single secret - your Mastodon API key - which is used at run time for posting to the platform. Make sure to override the `mastodon_host` parameter when deploying the Logic App as your host may differ from the default.
 
+**Note:** the Logic App is deployed to a Consumption plan.
+
 ### Sample JSON request
 
 POST a request using the body format shown to the Logic App's published HTTP endpoint.
